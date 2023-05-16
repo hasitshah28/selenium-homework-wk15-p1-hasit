@@ -1,0 +1,875 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9913968000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should verify Product are arranged in Alphabetical order",
+        "description": "",
+        "id": "computer-page;user-should-verify-product-are-arranged-in-alphabetical-order",
+        "after": [
+          {
+            "result": {
+              "duration": 1049751100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 387513300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomePageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 950423700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Computer tab",
+            "match": {
+              "location": "ComputerPageTestSteps.iClickOnComputerTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 558098500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on desktop tab",
+            "match": {
+              "location": "ComputerPageTestSteps.iClickOnDesktopTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 222266400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select sort by position Name: Z to A",
+            "match": {
+              "location": "ComputerPageTestSteps.iSelectSortByPositionNameZToA()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 270262200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should verify product will arrange in descending order",
+            "match": {
+              "location": "ComputerPageTestSteps.iShouldVerifyProductWillArrangeInDescendingOrder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@sanity"
+          },
+          {
+            "line": 3,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Computer Page",
+    "description": "",
+    "id": "computer-page",
+    "keyword": "Feature",
+    "uri": "ComputerPageTest.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6159139700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User should navigate to Cell Phone page successfully",
+        "description": "",
+        "id": "electronic-test;user-should-navigate-to-cell-phone-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1129782400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 33400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomePageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1181093400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I mouse hover to Electronics Tab",
+            "match": {
+              "location": "ElectronicTestSteps.iMouseHoverToElectronicsTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1834647700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I mouse hover and click on Cell Phones tab",
+            "match": {
+              "location": "ElectronicTestSteps.iMouseHoverAndClickOnCellPhonesTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63179300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should navigate to Cell Phone page",
+            "match": {
+              "location": "ElectronicTestSteps.iShouldNavigateToCellPhonePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@sanity"
+          },
+          {
+            "line": 5,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Electronic Test",
+    "description": "\r\nAs a user i should navigate to cellphone page and products are added and place order successfully",
+    "id": "electronic-test",
+    "keyword": "Feature",
+    "uri": "Electronic.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6071301000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "User should navigate to selected menu page",
+        "description": "",
+        "id": "homepage;user-should-navigate-to-selected-menu-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1754951400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 33400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomePageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1144940400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i click on any menu from \"Computers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Computers",
+                  "offset": 26
+                }
+              ],
+              "location": "HomePageSteps.iClickOnAnyMenuFrom(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43971100,
+              "error_message": "org.junit.ComparisonFailure: Computers expected:\u003cComputers[]\u003e but was:\u003cComputers[ page not display]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat com.nopcommerce.demo.steps.HomePageSteps.iNavigateToSelectedMenuPage(HomePageSteps.java:24)\r\n\tat ✽.Then i navigate to selected menu page \"Computers\"(HomePage.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "i navigate to selected menu page \"Computers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Computers",
+                  "offset": 34
+                }
+              ],
+              "location": "HomePageSteps.iNavigateToSelectedMenuPage(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6380611900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User should navigate to selected menu page",
+        "description": "",
+        "id": "homepage;user-should-navigate-to-selected-menu-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 2093445000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 30300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomePageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 728404200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i click on any menu from \"Electronics\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Electronics",
+                  "offset": 26
+                }
+              ],
+              "location": "HomePageSteps.iClickOnAnyMenuFrom(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43972000,
+              "error_message": "org.junit.ComparisonFailure: Electronics expected:\u003c[Electronics]\u003e but was:\u003c[Computers page not display]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat com.nopcommerce.demo.steps.HomePageSteps.iNavigateToSelectedMenuPage(HomePageSteps.java:24)\r\n\tat ✽.Then i navigate to selected menu page \"Electronics\"(HomePage.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "i navigate to selected menu page \"Electronics\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Electronics",
+                  "offset": 34
+                }
+              ],
+              "location": "HomePageSteps.iNavigateToSelectedMenuPage(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6483246900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User should navigate to selected menu page",
+        "description": "",
+        "id": "homepage;user-should-navigate-to-selected-menu-page;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 2184785300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 41600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomePageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1030320800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i click on any menu from \"Apparel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Apparel",
+                  "offset": 26
+                }
+              ],
+              "location": "HomePageSteps.iClickOnAnyMenuFrom(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35887700,
+              "error_message": "org.junit.ComparisonFailure: Apparel expected:\u003c[Apparel]\u003e but was:\u003c[Computers page not display]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat com.nopcommerce.demo.steps.HomePageSteps.iNavigateToSelectedMenuPage(HomePageSteps.java:24)\r\n\tat ✽.Then i navigate to selected menu page \"Apparel\"(HomePage.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "i navigate to selected menu page \"Apparel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Apparel",
+                  "offset": 34
+                }
+              ],
+              "location": "HomePageSteps.iNavigateToSelectedMenuPage(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6989946500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "User should navigate to selected menu page",
+        "description": "",
+        "id": "homepage;user-should-navigate-to-selected-menu-page;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 2173272600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 29700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomePageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1037527500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i click on any menu from \"Digital downloads\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Digital downloads",
+                  "offset": 26
+                }
+              ],
+              "location": "HomePageSteps.iClickOnAnyMenuFrom(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45356700,
+              "error_message": "org.junit.ComparisonFailure: Digital downloads expected:\u003c[Digital downloads]\u003e but was:\u003c[Computers page not display]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat com.nopcommerce.demo.steps.HomePageSteps.iNavigateToSelectedMenuPage(HomePageSteps.java:24)\r\n\tat ✽.Then i navigate to selected menu page \"Digital downloads\"(HomePage.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "i navigate to selected menu page \"Digital downloads\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Digital downloads",
+                  "offset": 34
+                }
+              ],
+              "location": "HomePageSteps.iNavigateToSelectedMenuPage(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5885142700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "User should navigate to selected menu page",
+        "description": "",
+        "id": "homepage;user-should-navigate-to-selected-menu-page;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 1587828800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 28200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomePageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1437913400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i click on any menu from \"Books\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Books",
+                  "offset": 26
+                }
+              ],
+              "location": "HomePageSteps.iClickOnAnyMenuFrom(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45175100,
+              "error_message": "org.junit.ComparisonFailure: Books expected:\u003c[Books]\u003e but was:\u003c[Computers page not display]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat com.nopcommerce.demo.steps.HomePageSteps.iNavigateToSelectedMenuPage(HomePageSteps.java:24)\r\n\tat ✽.Then i navigate to selected menu page \"Books\"(HomePage.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "i navigate to selected menu page \"Books\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Books",
+                  "offset": 34
+                }
+              ],
+              "location": "HomePageSteps.iNavigateToSelectedMenuPage(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6007909000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "User should navigate to selected menu page",
+        "description": "",
+        "id": "homepage;user-should-navigate-to-selected-menu-page;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 1624848200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 30100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomePageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1465297800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i click on any menu from \"Jewelry\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jewelry",
+                  "offset": 26
+                }
+              ],
+              "location": "HomePageSteps.iClickOnAnyMenuFrom(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34701200,
+              "error_message": "org.junit.ComparisonFailure: Jewelry expected:\u003c[Jewelr]y\u003e but was:\u003c[Computers page not displa]y\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat com.nopcommerce.demo.steps.HomePageSteps.iNavigateToSelectedMenuPage(HomePageSteps.java:24)\r\n\tat ✽.Then i navigate to selected menu page \"Jewelry\"(HomePage.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "i navigate to selected menu page \"Jewelry\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jewelry",
+                  "offset": 34
+                }
+              ],
+              "location": "HomePageSteps.iNavigateToSelectedMenuPage(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6866855000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "User should navigate to selected menu page",
+        "description": "",
+        "id": "homepage;user-should-navigate-to-selected-menu-page;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 2266765300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 31800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomePageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 873362200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i click on any menu from \"Gift Cards\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gift Cards",
+                  "offset": 26
+                }
+              ],
+              "location": "HomePageSteps.iClickOnAnyMenuFrom(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44359400,
+              "error_message": "org.junit.ComparisonFailure: Gift Cards expected:\u003c[Gift Cards]\u003e but was:\u003c[Computers page not display]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat com.nopcommerce.demo.steps.HomePageSteps.iNavigateToSelectedMenuPage(HomePageSteps.java:24)\r\n\tat ✽.Then i navigate to selected menu page \"Gift Cards\"(HomePage.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "i navigate to selected menu page \"Gift Cards\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gift Cards",
+                  "offset": 34
+                }
+              ],
+              "location": "HomePageSteps.iNavigateToSelectedMenuPage(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "HomePage",
+    "description": "\r\nAs a user i should navigate to selected menu page",
+    "id": "homepage",
+    "keyword": "Feature",
+    "uri": "HomePage.feature"
+  }
+]
